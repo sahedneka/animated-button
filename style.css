@@ -58,41 +58,41 @@ a {
 }
 
 .button {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .button a {
-    padding: 20px 40px;
-    line-height: 1;
-    background: #282828;
-    color: #fff;
-    font-family: "Poppins", sans-serif;
-    font-size: 1.5em;
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 0.1em;
-    position: relative;
-    overflow: hidden;
-    isolation: isolate;
+  padding: 20px 40px;
+  line-height: 1;
+  background: #282828;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 0.1em;
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
 }
 
 .button a::before {
-    content: "";
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    background: #0b8b60;
-    border-radius: 50%;
-    left: calc(50% - 10px);
-    bottom: -24px;
-    z-index: -1;
-    transition: scale 0.4s linear;
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #0b8b60;
+  border-radius: 50%;
+  left: calc(50% - 10px);
+  bottom: -24px;
+  z-index: -1;
+  transition: scale 0.4s linear;
 }
 
 .button a:hover::before {
-    scale: 15;
+  scale: 15;
 }
