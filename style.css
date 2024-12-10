@@ -78,7 +78,7 @@ a {
   position: relative;
   overflow: hidden;
   isolation: isolate;
-  transition: all 0.3s linear;
+  transition: all 0.2s linear;
 }
 
 .button a:hover {
