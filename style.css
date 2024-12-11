@@ -58,6 +58,7 @@ a {
 }
 
 .button {
+  background: radial-gradient(#deffc6 -90%, #f1b76d);
   width: 100vw;
   height: 100vh;
   display: flex;
