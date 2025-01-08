@@ -2,7 +2,7 @@
 
 ###
 
-<p align="left">My name is Neka and I'm a Web Designer & Developer</p>
+<p align="left">I am Neka and I'm a Web Designer & Developer</p>
 
 ###
 
